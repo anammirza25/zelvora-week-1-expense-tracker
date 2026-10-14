@@ -74,16 +74,16 @@ Add an expense, edit or delete an existing expense, and view the total expenses 
 
 ### Dashboard
 
-"Expense Tracker Dashboard" (screenshots/dashboard.png)
+![Expense Tracker Dashboard](screenshots/dashboard.png)
 
 ### Expense List
 
-"Expense List with Edit and Delete" (screenshots/expense-list.png)
+![Expense List with Edit and Delete](screenshots/expense-list.png)
 
 ### Mobile View
 
-"Responsive Mobile View" (screenshots/mobile-view.png)
+![Responsive Mobile View](screenshots/mobile-view.png)
 
 ## Demo
 
-Demo video: See the "demo" folder for the recorded demonstration.
+"Watch the Expense Tracker Demo" (demo/demo.mp4)
