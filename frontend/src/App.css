@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #450011;
+  color: #2f2022;
+}
+
+#root {
+  min-height: 100vh;
+}
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #d4af5a;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+form {
+  background: transparent;
+  padding: 10px;
+  margin-bottom: 0;
+}
+form input,
+form select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+button {
+  padding: 10px 16px;
+  margin: 6px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+form button {
+  background: #b8944b;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+form button:hover {
+  background: #967638;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff8e7;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+li button:first-of-type {
+  background: #b8944b;
+  color: white;
+}
+
+li button:last-of-type {
+  background: #8f3f4a;
+  color: white;
+}
+
+li button:hover {
+  opacity: 0.85;
+}
+h1,
+h2 {
+  color: #d4af5a;
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-weight: 600;
+}
+.dashboard-section {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 25px;
+  align-items: stretch;
+}
+
+.form-card,
+.chart-card {
+  background: #fff8e7;
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid rgba(184, 148, 75, 0.45);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+.chart-card h2,
+.form-card h2 {
+  margin-top: 0;
+  text-align: center;
+}
+.chart-container {
+  width: 280px;
+  height: 280px;
+  margin: 20px auto;
+}
+.dashboard-section {
+  margin-bottom: 35px;
+}
+
+form input:focus,
+.edit-section input:focus {
+  outline: none;
+  border-color: #b8944b;
+  box-shadow: 0 0 0 3px rgba(184, 148, 75, 0.15);
+}
+.edit-section {
+  background: #f7ecd2;
+  padding: 18px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(184, 148, 75, 0.35);
+}
+
+.edit-section h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .app-container {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 26px;
+    line-height:1.2;
+  }
+
+  .dashboard-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .form-card,
+  .chart-card {
+    padding: 20px;
+  }
+
+  .chart-container {
+    width: 240px;
+    height: 240px;
+  }
+
+  li {
+    line-height: 1.8;
+  }
+
+  li button {
+    margin-top: 8px;
+  }
+}
+.total-expense {
+  text-align: center;
+  background: #f7ecd2;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(184, 148, 75, 0.35);
+}
+
+.total-expense p {
+  margin: 0;
+  font-size: 14px;
+  color: #6f3b43;
+  font-weight: 600;
+}
+
+.total-expense h3 {
+  margin: 5px 0 0;
+  font-size: 28px;
+  color: #8f3f4a;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+li button {
+  margin-left: auto;
+}
+
+li button + button {
+  margin-left: 0;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+.app-container::before,
+.app-container::after {
+  display: none !important;
+}
