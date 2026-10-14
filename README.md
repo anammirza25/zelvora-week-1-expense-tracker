@@ -1,10 +1,10 @@
-Personal Expense Tracker App
+# Personal Expense Tracker App
 
-About the Project
+## About the Project
 
 The Personal Expense Tracker is a web application that helps users record, manage, and visualize their daily expenses.
 
-Features
+## Features
 
 - Add new expenses
 - Edit existing expenses
@@ -15,7 +15,7 @@ Features
 - Store expense data in MongoDB
 - Responsive user interface
 
-Technologies Used
+## Technologies Used
 
 - Frontend: React
 - Backend: Node.js and Express.js
@@ -23,14 +23,12 @@ Technologies Used
 - Charts: Chart.js
 - Version Control: Git and GitHub
 
-Project Structure
+## Project Structure
 
 - "frontend/" – React user interface
 - "backend/" – Express API and MongoDB integration
 
-Setup Instructions
-
-Setup Instructions
+## Setup Instructions
 
 Prerequisites
 
@@ -60,7 +58,7 @@ The backend runs at "http://localhost:5000".
 
 3. Configure the Frontend
 
-Open a second terminal:
+Open a second terminal from the project root:
 
 cd frontend
 npm install
@@ -72,10 +70,20 @@ Open the local URL displayed in the terminal, usually "http://localhost:5173".
 
 Add an expense, edit or delete an existing expense, and view the total expenses and category-wise chart.
 
-Screenshots
+## Screenshots
 
-Screenshots will be added here.
+### Dashboard
 
-Demo
+"Expense Tracker Dashboard" (screenshots/dashboard.png)
 
-Demo video link will be added here.
+### Expense List
+
+"Expense List with Edit and Delete" (screenshots/expense-list.png)
+
+### Mobile View
+
+"Responsive Mobile View" (screenshots/mobile-view.png)
+
+## Demo
+
+Demo video: See the "demo" folder for the recorded demonstration.
